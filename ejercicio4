@@ -1,0 +1,11 @@
+name=input("Ingrese su nombre: ")
+not1=int(input("Ingrese la primera nota: "))
+not2=int(input("Ingrese la segunda nota: "))
+not3=int(input("Ingrese la tercera nota: "))
+prom=(not1+not2+not3)/3
+print(f"el promedio de las notas de {name} es : {prom}")
+if prom>11:
+    print(f"El alumno {name} esta aprobado")
+else:
+    print(f"El alumno {name} esta desaprobado") 
+    

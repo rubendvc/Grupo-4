@@ -1,0 +1,13 @@
+name =input("ingrese su nombre por favor : ")
+num=float(input("ingrese un numero : "))
+if num < 0:
+    print(f"el numnero {num} es negativo {name}")
+elif num>0:
+    print(f"el numero {num} es positivo {name}")
+else:
+    print(f"el numero es cero {name}")
+
+if num==int(num):   
+    print(f"el numero {num} es un numero entero {name}")
+else:    print(f"el numero {num} es un numero decimal {name}")
+
